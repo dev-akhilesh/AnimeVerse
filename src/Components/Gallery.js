@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import { useGlobalContext } from '../context/global';
 
 function Gallery() {
-    const {getAnimePictures, pictures} = useGlobalContext()
-    const {id} = useParams();
+    const { getAnimePictures, pictures } = useGlobalContext()
+    const { id } = useParams();
 
     //state
     const [index, setIndex] = React.useState(0);
@@ -32,10 +32,10 @@ function Gallery() {
             </div>
             <div className="small-images">
                 {pictures?.map((picture, i) => {
-                    return <div className="image-con" onClick={()=>{
+                    return <div className="image-con" onClick={() => {
                         handleImageClick(i)
                     }} key={i}>
-                        <img 
+                        <img
                             src={picture?.jpg.image_url}
                             style={{
                                 border: i === index ? "3px solid #27AE60" : "3px solid #e5e7eb",
@@ -43,7 +43,7 @@ function Gallery() {
                                 transform: i === index ? 'scale(1.1)' : 'scale(1)',
                                 transition: 'all .3s ease-in-out'
                             }}
-                            alt="" 
+                            alt=""
                         />
                     </div>
                 })}

@@ -14,15 +14,15 @@ const GlobalStyle = createGlobalStyle`
     body{
         color: #6c7983;
         font-size: 1.2rem;
-         &::-webkit-scrollbar {
+        &::-webkit-scrollbar {
             width: 10px;
         }
         &::-webkit-scrollbar-thumb {
-            background-color: #27AE60;
+            background-color: #2575fc; 
             border-radius: 10px;
         }
         &::-webkit-scrollbar-thumb:hover {
-            background-color: #1B9849;
+            background-color: #1B57E6; 
         }
         &::-webkit-scrollbar-track {
             background-color: #EDEDED;

@@ -76,7 +76,7 @@ function AnimeItem() {
                         title="Inline Frame Example"
                         width="800"
                         height="450"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen>
                     </iframe> :
                     <h3>Trailer not available</h3>
@@ -108,7 +108,7 @@ const AnimeItemStyled = styled.div`
         font-size: 3rem;
         margin-bottom: 1.5rem;
         cursor: pointer;
-        background:linear-gradient( to right, #A855F7, #27AE60);
+         background: linear-gradient(to right, #9b59b6, #3498db);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transition: all .4s ease-in-out;
@@ -121,7 +121,7 @@ const AnimeItemStyled = styled.div`
         margin: 3rem 0;
         font-size: 2rem;
         cursor: pointer;
-        background:linear-gradient( to right, #A855F7 23%, #27AE60);
+        background: linear-gradient(to right, #0575E6, #00F260);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -193,6 +193,7 @@ const AnimeItemStyled = styled.div`
             padding: .4rem .6rem;
             border-radius: 7px;
             background-color: #EDEDED;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
             transition: all .4s ease-in-out;
             img{
                 width: 100%;

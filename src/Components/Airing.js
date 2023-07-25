@@ -50,13 +50,23 @@ const PopularStyled = styled.div`
         a{
             height: 500px;
             border-radius: 7px;
-            border: 5px solid #e5e7eb;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out, cursor 0.4s ease-in-out;
+            &:hover {
+            transform: translateY(-5px);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 16px;
+            cursor: pointer;
+            }
         }
         a img{
             width: 100%;
             height: 100%;
             object-fit: cover;
             border-radius: 5px;
+            transition: transform 0.4s ease-in-out;
+            &:hover {
+            transform: scale(1.05);
+            }
         }
     }
 `;

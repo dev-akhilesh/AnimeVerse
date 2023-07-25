@@ -74,6 +74,8 @@ function Homepage() {
 
 const HomepageStyled = styled.div`
     background-color: #EDEDED;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: black;
     header {
         padding: 2rem 5rem;
         width: 60%;

@@ -65,9 +65,9 @@ const PopularStyled = styled.div`
             object-fit: cover;
             border-radius: 5px;
             transition: transform 0.4s ease-in-out;
-        &:hover {
-          transform: scale(1.05);
-        }
+            &:hover {
+            transform: scale(1.05);
+            }
         }
     }
 `;
