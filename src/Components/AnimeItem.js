@@ -30,7 +30,7 @@ function AnimeItem() {
         const response = await fetch(`https://api.jikan.moe/v4/anime/${anime}/characters`)
         const data = await response.json()
         setCharacters(data.data)
-        console.log(data.data)
+        // console.log(data.data)
     }
 
 
