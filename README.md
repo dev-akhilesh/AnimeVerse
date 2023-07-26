@@ -13,7 +13,6 @@ AnimeVerse is a comprehensive online destination dedicated to anime enthusiasts.
   - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 
 ## Project Overview
